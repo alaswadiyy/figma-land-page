@@ -1,0 +1,21 @@
+.btn {
+    display: inline-flex;
+    height: 52px;
+    overflow: hidden;
+    background-color: var(--background);
+    color: var(--accent-color1);
+    padding: 20px 36px;
+    border: 1px solid var(--accent-color1);
+    box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+    align-items: center;
+    flex-shrink: 0;
+}
+
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+    nav {
+        .botton{
+            display: none;
+        }
+        
+    }
+}
