@@ -14,14 +14,14 @@ const Navbar = () => {
             </div>
             <div className="toggle-container">
             
-            <div className="toggle">
-                {navState ? (
-                <MdClose onClick={() => setNavState(false)} />
-                ) : (
-                <GiHamburgerMenu onClick={() => setNavState(true)} />
-                )}
-            </div>
-            <button className='btn'>Login</button>
+                <div className="toggle">
+                    {navState ? (
+                    <MdClose onClick={() => setNavState(false)} />
+                    ) : (
+                    <GiHamburgerMenu onClick={() => setNavState(true)} />
+                    )}
+                </div>
+                <button className='btn'>Login</button>
             </div>
         </div>
         <div className={`links-container ${navState ? "nav-visible" : ""}`}>

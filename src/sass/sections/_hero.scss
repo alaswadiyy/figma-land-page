@@ -1,0 +1,106 @@
+section{
+    margin-top: 4rem;
+    .hero-header {
+        display: flex;
+        justify-content: center;
+        h1{
+            width: 709px;
+            color: var(--accent-color1);
+            text-align: center;
+            font-size: 80px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 88px;
+            letter-spacing: 0.2px;
+            font-family: var(--font-family);
+        }
+        
+    }
+    .hero-parag {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+        p{
+            width: 582px;
+            color: var(--accent-color1);
+            text-align: center;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0.2px;
+            font-family: var(--font-family);
+        }
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 5rem;
+    }
+    .screens {
+        margin-top: 2rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+        img{
+            height: 841px;
+            width: 100%;
+            flex-shrink: 0;
+        }
+    }
+    
+}
+
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+    section{
+        margin-top: 2rem;
+        .hero-header {
+            h1{
+                width: 380px;
+                font-size: 3.25rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 3.8rem;
+                letter-spacing: 0.0125rem;
+            }
+            
+        }
+        .hero-parag {
+            p{
+                width: 380px;
+                font-size: 1.25rem;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 1.875rem;
+                letter-spacing: 0.125rem;
+            }
+        }
+        .buttons{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 1.2rem;
+            margin-top: 3rem;
+            .btn {
+                padding: 10px 30px;
+            }
+            .btn_blue {
+                padding: 10px 30px;
+            }
+        }
+        .screens {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 2rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+            img{
+                
+                height: 435px;
+                width: 539px;
+                flex-shrink: 0;
+            }
+        }
+        
+    }   
+}

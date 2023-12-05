@@ -2,6 +2,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 2rem 10rem;
     .brand-container {
       .brand {
         img {
@@ -49,7 +50,7 @@ nav {
         width: 100%;
         .brand {
           img {
-            height: 1.5rem;
+            height: 3rem;
           }
         }
         .toggle-container {
@@ -57,8 +58,9 @@ nav {
           color: var(--accent-color1);
           display: flex;
           flex-direction: row-reverse;
-          gap: 1rem;
+          gap: 1.5rem;
           z-index: 40;
+          align-items: center;
           .toggle {
             z-index: 40;
             display: block;

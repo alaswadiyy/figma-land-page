@@ -9,12 +9,27 @@
     box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
     align-items: center;
     flex-shrink: 0;
+    font-family: var(--font-family);
+}
+.btn_blue {
+    display: flex;
+    overflow: hidden;
+    height: 52px;
+    padding: 20px 36px;
+    box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+    background: var(--blue);
+    align-items: center;
+    border: none;
+    color: var(--accent-color1);
+    font-family: var(--font-family);
 }
 
 @media screen and (min-width: 280px) and (max-width: 1080px) {
     nav {
-        .botton{
-            display: none;
+        .button{
+            .btn{
+                display: none;
+            }
         }
         
     }

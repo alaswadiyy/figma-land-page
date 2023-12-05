@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
 :root {
-  --orange: #ff8139;
+  --blue: #4452FE;
   --pink: #ff3998;
   --green: #39ffa0;
   --red: #ff3939;
@@ -11,7 +12,7 @@
   --accent-color3: #cccccc;
   --card-color: #000000;
   --background: #000000;
-  --font-family: "Inter", sans-serif;
+  --font-family: 'Open Sans', sans-serif;
 }
 
 * {
@@ -29,7 +30,7 @@
     font-family: var(--font-family);
     overflow-x: hidden;
     transition: 0.5s ease-in-out;
-    padding: 2rem 10rem;
+    
     @media screen and (min-width: 280px) and (max-width: 1080px) {
       padding: 0;
     }
