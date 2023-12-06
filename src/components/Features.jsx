@@ -1,9 +1,48 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
+import featuresImg from "../assets/features_img.png";
+import icon1 from "../assets/feature_icon1.svg";
+import icon2 from "../assets/feature_icon2.svg";
+import icon3 from "../assets/feature_icon3.svg";
 
 const Features = () => {
   return (
-    <div>Features</div>
+    <section>
+      <div className='feature_header'>
+        <h2>Features</h2>
+      </div>
+      <div className='feature_parag'>
+        <p>Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.</p>
+      </div>
+      <div className='feature_content'>
+        <div className='container_img'>
+          <img src={featuresImg} alt="" />
+        </div>
+        <div>
+          <div>
+            <div>
+              <img src={icon1} alt="" />
+              <h4></h4>
+            </div>
+            <p>When you add work to your Slate calendar we automatically calculate useful insights.</p>
+          </div>
+          <div>
+            <div>
+              <img src={icon2} alt="" />
+              <h4></h4>
+            </div>
+            <p>When you add work to your Slate calendar we automatically calculate useful insights.</p>
+          </div>
+          <div>
+            <div>
+              <img src={icon3} alt="" />
+              <h4></h4>
+            </div>
+            <p>When you add work to your Slate calendar we automatically calculate useful insights.</p>
+          </div>
+        </div>
+      </div>
+    </section>
   )
 }
 
