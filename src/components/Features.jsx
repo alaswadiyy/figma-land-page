@@ -18,25 +18,25 @@ const Features = () => {
         <div className='container_img'>
           <img src={featuresImg} alt="" />
         </div>
-        <div>
-          <div>
-            <div>
+        <div className='container_content'>
+          <div className='content'>
+            <div className='content_head'>
               <img src={icon1} alt="" />
-              <h4></h4>
+              <h4>A single source of truth</h4>
             </div>
             <p>When you add work to your Slate calendar we automatically calculate useful insights.</p>
           </div>
-          <div>
-            <div>
+          <div className='content'>
+            <div className='content_head'>
               <img src={icon2} alt="" />
-              <h4></h4>
+              <h4>Intuitive interface</h4>
             </div>
             <p>When you add work to your Slate calendar we automatically calculate useful insights.</p>
           </div>
-          <div>
-            <div>
+          <div className='content'>
+            <div className='content_head'>
               <img src={icon3} alt="" />
-              <h4></h4>
+              <h4>Or with rules</h4>
             </div>
             <p>When you add work to your Slate calendar we automatically calculate useful insights.</p>
           </div>
