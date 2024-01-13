@@ -70,3 +70,50 @@ section{
         }
     }
 }
+@media screen and (min-width: 280px) and (max-width: 1080px) {
+    section{
+        .feature_header{
+            h2{
+                font-family: var(--font-family);
+                font-size: 3.25rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 3.875rem; /* 119.231% */
+                letter-spacing: 0.0125rem;
+            }
+        }
+        .feature_parag {
+            p{
+                color: var(--accent-color1);
+                font-size: 18px;
+                font-weight: 300;
+                line-height: 2rem;
+                letter-spacing: 0.2px;
+                width: 380px;
+                text-align: center;
+            }
+        }
+        .feature_content {
+            display: flex;
+            flex-direction: column;
+            padding: 0 2.5rem;
+            .container_img{
+                width: 100%;
+                img{
+                    width: 23.5rem;
+                    height: 25.375rem;
+                }
+            }
+            .container_content {
+                width: 100%;
+                margin: 2rem 20%;
+                .content{
+                    width: 269px;
+                    p{
+                        margin: 1rem 0 3rem 0;
+                    }
+                }
+            }
+        }
+    }
+}

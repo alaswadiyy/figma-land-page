@@ -23,6 +23,11 @@
     color: var(--accent-color1);
     font-family: var(--font-family);
 }
+.div_btn{
+    display: flex;
+    justify-content: center;
+}
+
 
 @media screen and (min-width: 280px) and (max-width: 1080px) {
     nav {

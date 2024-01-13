@@ -1,5 +1,6 @@
 section{
-    .partners_header{
+    padding: 2rem 0;
+    .gallery_header{
         display: flex;
         justify-content: center;
         padding-bottom: 1.5rem;
@@ -12,10 +13,11 @@ section{
             letter-spacing: 0.2px;
         }
     }
-    .partners_parag{
+    .gallery_parag{
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-bottom: 3rem;
         text-align: center;
         p{
             color: var(--accent-color1);
@@ -27,18 +29,39 @@ section{
             text-align: center;
         }
     }
-    .logo_section{
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 3rem 12rem;
+        gap: 2rem;
+        img{
+            width: 14.0625rem;
+            height: 17.0125rem;
+            border-radius: 10px;
+        }
+    }
+    .wrap{
         display: flex;
-        justify-content: center;
-        gap: 4.6rem;
-        padding: 3.12rem 0;
+        align-items: center;
+        gap: 2rem;
+        padding: 2rem 8rem;
+        .sides{
+            width: 28rem;
+            height: 17rem;
+            border-radius: 10px;
+        }
+        img{
+            width: 14rem;
+            height: 17rem;
+            border-radius: 10px;
+        }
     }
 }
 
 @media screen and (min-width: 280px) and (max-width: 1080px) {
     section{
         padding: 1.5rem 0;
-        .partners_header{
+        .gallery_header{
             h2{
                 font-size: 3.25rem;
                 font-weight: 400;
@@ -46,7 +69,7 @@ section{
                 letter-spacing: 0.0125rem;
             }
         }
-        .partners_parag{
+        .gallery_parag{
             padding-bottom: 2rem;
             p{
                 color: var(--accent-color1);
@@ -58,14 +81,19 @@ section{
                 text-align: center;
             }
         }
-        .logo_section {
+        .wrapper {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(1, 1fr);
             padding: 2rem 6rem;
-            gap: 3.12rem;
-            .ibm{
-                width: 5rem;            
+            gap: 1.5rem;
+            img{
+                width: 14.0625rem;
+                height: 17.0125rem;
+                border-radius: 10px;
             }
+        }
+        .wrap{
+            display: none;
         }
     }
 }

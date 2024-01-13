@@ -3,7 +3,22 @@ import React from 'react'
 
 const Testimonial = () => {
   return (
-    <div>Testimonial</div>
+    <section>
+      <div className='text_header'>
+        <h2>Testimonials</h2>
+      </div>
+      <div>
+        <div className='card'>
+          <div>
+            <img src="" alt="" />
+            <h4></h4>
+          </div>
+        </div>
+        <div className='card'></div>
+        <div className='card'></div>
+        <div className='card'></div>
+      </div>
+    </section>
   )
 }
 
